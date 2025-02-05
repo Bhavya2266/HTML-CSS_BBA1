@@ -52,7 +52,8 @@ border-radius: 3px;
     
 }
 footer{
-  
+  text-align: right;
+  right:40%;
 }
 #img1{
     
@@ -71,8 +72,9 @@ padding:6px;
 footer ul li a {
     text-decoration: none;
     color: grey;
-    text-align: center;
+    text-align: right;
     padding: 20px ;
+    
 }
 .latest-news {
     background-color: #f8f8f8;
@@ -115,6 +117,7 @@ li{
   text-align: center;
     padding: 20px;
     display:inline;
+    left: 80%;
 }
 
 .centered{
