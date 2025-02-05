@@ -1,95 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-form {
-    text-align: center;
-    background-color: #f4f4f4;
-    margin: 10px;
-    padding: 20px;;
-  }
-  
-  header {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
- button{
-    color:white ;
-    padding: 10px;
-    background-color: #d4145a;
- }
-  
-  
-  .signin-section {
+
+body {
+    font-family: "Open Sans", serif;
+    background-color: #f4f4f4; 
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
-  }
-  
-  .signin-box {
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    margin: 0;
+}
+
+
+.container {
     width: 100%;
-    max-width: 400px;
-  }
-  
-  .signin-box h2 {
-    font-size: 24px;
+    max-width: 400px; 
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     text-align: center;
+}
+
+.image-section {
+    margin-bottom: 30px;
+}
+
+
+.form-section h3 {
+    font-size: 24px;
     color: #333;
     margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 14px;
-    color: #555;
-  }
-  
-  input[type="email"], input[type="password"] {
-    width: 15%;
-    padding: 10px;
-    margin-bottom: 10px;
+}
+
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 5px;
     border: 1px solid #ccc;
-    border-radius: 4%;
-    font-size: 10px;
-  }
-  
-  input[type="email"]:focus, input[type="password"]:focus {
+    border-radius: 8px;
+    font-size: 18px;
+    gap:0px;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
     outline: none;
-    border-color: #ff0000; 
-  }
-  
-  .remember-me {
-    margin-bottom: 20px;
-  }
-  
-  .remember-me input[type="checkbox"] {
+    border-color: #d4145a; 
+}
+
+
+input[type="checkbox"] {
     margin-right: 8px;
-  }
-  
-  .submit-btn {
-    background-color: #ff0000;
+}
+
+
+.sign-in-btn {
+    background-color: #d4145a; 
     color: white;
     border: none;
-    padding: 12px;
-    width: 100%;
-    font-size: 16px;
+    padding: 12px 25px;
     border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
     cursor: pointer;
-  }
-  
-  .submit-btn:hover {
-    background-color: #cc0000; 
-  }
-  
-  .submit-btn:active {
-    background-color: #990000; 
-  }
-  #container {
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 10px;
+}
+
+.sign-in-btn:hover {
+    background-color: #d4145a; 
+}
+
+.sign-in-btn:active {
+    background-color: #d4145a; 
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%; 
+    }
 }

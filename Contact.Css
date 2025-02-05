@@ -1,36 +1,37 @@
- {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+ 
 
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4; 
-    height: 100vh; /
+    font-family: "Open Sans", serif;
+    background-color: white; 
+    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0;
+    
 }
 
 
 .container {
     width: 100%;
-    max-width: 600px; /* Maximum width of the form */
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
     border-radius: 8px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+
+form {
+    flex-basis: 400px;
 }
 
 
-header h1 {
+ h1 {
     color: #d4145a;
-    font-size: 36px;
     margin-bottom: 20px;
 }
 
@@ -43,7 +44,7 @@ header h1 {
 label {
     display: block;
     font-size: 14px;
-    color: #333;
+    color: #1a1a1a;
     margin-bottom: 5px;
     text-align: left;
 }
@@ -59,13 +60,13 @@ select, input[type="email"], textarea {
 
 select:focus, input[type="email"]:focus, textarea:focus {
     outline: none;
-    border-color: #ff0000; 
+    border-color:#d4145a; 
 }
 
 
 textarea {
     height: 150px;
-    resize: none; 
+    resize:none ; 
 }
 
 
@@ -81,15 +82,7 @@ textarea {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-    width: 60px;
-}
-
-.submit-button:hover {
-    background-color: #cc0000; 
-}
-
-.submit-button:active {
-    background-color: #990000; 
+    width: 300px;
 }
 
 .image-container {
@@ -97,6 +90,6 @@ textarea {
 }
 
 img {
-    max-width: 100px;
+    max-width: 350px;
     height: auto;
 }
