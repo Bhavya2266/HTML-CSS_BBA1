@@ -1,20 +1,24 @@
+body{
+  font-family: "Open Sans", serif;
+}
 #img {
-    display: block;
-    margin: 0 auto;
-   }
-#di {
+  display: block;
+  margin: 0 auto;
   text-align: center;
-  
-  color: #d4145a ;
+ }
+#di {
+text-align: center;
+
+color: #d4145a ;
 }
 .fpara{
-  text-align: justify;*
-  font-size: 14px;
-  padding-left: 500px;
-  padding-right: 450px;
+text-align: justify;*
+font-size: 14px;
+padding-left: 500px;
+padding-right: 450px;
 }
 #vid {
-  padding-left: 500px;
-  padding-right: 450px;
+padding-left: 500px;
+padding-right: 450px;
 
- }
+}
