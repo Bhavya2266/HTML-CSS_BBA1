@@ -1,167 +1,179 @@
 body{
    margin-left: 10%;
 margin-right: 10%;
+font-family: "Open Sans", serif;
 }
-.h1{
-    margin-top:30px;
-    font-weight: 900;   
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px;
+    background: #fff;
+    border-bottom: 1px solid white;
+  margin-bottom: 0%;
 }
-
-.button{
-background-color:#d4145a;
-color: antiquewhite;
-padding: 15px;
-border: 25px solid white;
-border-radius: 30px;
-}
-
-
- #nav2{
-list-style: none;
-display: inline;
-padding: 5px;
-
-
-}
-#l1{
-    display:inline;
-    padding: 0px 10px; 
-    position: relative;
-    left: 40%;
-}
-nav ul li a {
-    display:inline;
-    text-decoration: none;
-    color:black;
-}
-a:hover{
-color: white;
-background-color: #d4145a;
-border-radius: 3px;
-}
-.login{
-    color:#d4145a;
-    border: 1px solid #d4145a;
-   background-color: white;
-   border-radius: 3px;
-   text-align: right;
-  left: 80%;
-}
-.p{
-    color: grey;
-    
-}
-footer{
-  text-align: right;
-  right:40%;
-}
-#img1{
-    
-   float: right;
-    overflow: auto;
-    padding: 0%;
-}
-#img{
-    border-radius: 10px;   
-}
-.footer ul{
+nav ul{
     list-style: none;
-padding:6px;
-
-}
-footer ul li a {
-    text-decoration: none;
-    color: grey;
-    text-align: right;
-    padding: 20px ;
-    
-}
-.latest-news {
-    background-color: #f8f8f8;
-    padding: 40px 0;
-}
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-}
-.container-article {
-    margin: 0 auto;
     display: flex;
     gap: 20px;
 }
-article {
-    width: 33%;
-   
-}
-#sec{
-    border-top: 1px solid rgb(233, 228, 228);
-}
-#search{
-
-}
-.h2{
-    text-align: left;
-    color: #d4145a;
-    border-bottom: 1px solid rgb(228, 224, 224);
-    margin-bottom: 40px;
-    margin-top: 350px;
-}
-li{
-    display:block;
-    padding: 0px 10px; 
-    position: relative;
-    left: 40%;
-   }
-#p3{
-  text-align: center;
-    padding: 20px;
-    display:inline;
-    left: 80%;
-}
-
-.centered{
-    position: absolute;
-    top: 50%;
-    left:50%;
+nav ul li{
     
+    text-decoration: none;
 }
-.bg1{
-    background-image: url(tekken_8_reina.jpg);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+li a{
+    text-decoration: none;
+    color: black;
 }
-.bg2{
-    background-image: url(diablo.jpg);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#Search{
+    padding: 5px;
 }
-.bg3{
-    background-image: url(steam_deck_oled_front_1.jpg);         
-    width: cover;
-    height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+button{
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+    background: #f07;
+    border-radius: 8px;
 }
-.card {
-    padding: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #f8f8f8;
+ a:hover{
+    background-color: #f07;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
 }
-#foot{
+.button{
+    background-color:#d4145a;
+    color: antiquewhite;
+    padding: 15px;
+    border: 25px solid white;
+    border-radius: 30px;
+    }
+.login{
+        color:#d4145a;
+        border: 1px solid #d4145a;
+       background-color: white;
+       border-radius: 3px;
+       text-align: right;
+      left: 80%;
+    }
+    .p{
+        color: grey;
+        
+    }
+    footer{
+      text-align: right;
+      right:40%;
+    }
+    #img1{
+        
+       float: right;
+        overflow: auto;
+        padding: 0%;
+    }
+    #img{
+        border-radius: 10px;   
+    }
+    .footer ul{
+        list-style: none;
+    padding:6px;
+    
+    }
+    footer ul li a {
+        text-decoration: none;
+        color: grey;
+        text-align: right;
+        padding: 20px ;
+        
+    }
+    .latest-news {
+        background-color: #f8f8f8;
+        padding: 40px ;
+        margin-bottom: 10px;
+    }
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .container-article {
+        margin: 0 auto;
+        display: flex;
+        gap: 20px;
+    }
+    article {
+        width: 33%;
+       
+    }
+    #sec{
+        border-top: 1px solid rgb(233, 228, 228);
+    }
+    .h2{
+        text-align: left;
+        color: #d4145a;
+        border-bottom: 1px solid rgb(228, 224, 224);
+        margin-bottom: 40px;
+        margin-top: 350px;
+    }
+    li{
+        display:block;
+        padding: 0px 10px; 
+        position: relative;
+    
+       }
+    #p3{
+      text-align: center;
+        padding: 20px;
+        display:inline;
+        left: 80%;
+    }
+    
+    .centered{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        
+    }
+    .bg1{
+        background-image: url(tekken_8_reina.jpg);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bg2{
+        background-image: url(diablo.jpg);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bg3{
+        background-image: url(steam_deck_oled_front_1.jpg);         
+        width: cover;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card {
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #f8f8f8;
+    }
+    .container-article2{
+            display:flex;
+            align-items:flex-start;
+            justify-content:center;
+            gap:20px;
+    }
+    #footer-bottom{
         display:flex;
-        align-items:stretch;
-        justify-content:center;
-        gap:20px;
-}
-.article{
-   
-   flex-wrap:wrap;
-   flex-basis:300px;
-   text-align:center;
-}
+        align-items:flex-end;
+        
+    }
+    .article{
+       
+       flex-wrap:wrap;
+       flex-basis:300px;
+       text-align:center;
+    }

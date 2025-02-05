@@ -1,101 +1,136 @@
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GameNews</title>
-    <link rel="stylesheet" href="home.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="home.css" />
+  </head>
 
-<body>
-    <section class contain>
-        <img src="logo-gamenews.png" alt="logo" width="150">
-        <nav id="nav1">
-            <ul id="nav2">
-                <li id="l1"><a href="#">Home</a></li>
-                <li id="l1"><a href="#">News</a></li>
-                <li id="l1"><a href="#">Reviews</a></li>
-                <li id="l1"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <form action="/search" method="get">
-            <input id="search" type="text" id="search" name="" placeholder="Search...">
-            <button class="button" type="submit">OK</button>
-        </form>
-        <button class="login">Login</button>
-    </section>
+  <body>
+    <header>
+      <img id="logo"src="logo-gamenews.png" alt="logo" width="150" />
+      <nav id="nav1">
+        <ul id="nav2">
+          <li id="l1"><a href="#">Home</a></li>
+          <li id="l1"><a href="#">News</a></li>
+          <li id="l1"><a href="#">Reviews</a></li>
+          <li id="l1"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <form action="/search" method="get">
+        <input
+          id="search"
+          type="text"
+          id="search"
+          name=""
+          placeholder="Search..."
+        />
+        <button class="button" type="submit">OK</button>
+      </form>
+      <button class="login">Login</button>
+    </header>
     <section id="sec">
-        <h1 class="h1">The Best Marvel Games Of All Time</h1>
-        <p class="p"> You can live your superhero fantasies with these great games,old and <br>new.
-            And only like half of them are Spider-Man games</p>
-        <img id="img1" src="marvel.jpg" alt="marvel" width="400">
-        <button class="button">Read more</button>
+      <h1 class="h1">The Best Marvel Games Of All Time</h1>
+      <p class="p">
+        You can live your superhero fantasies with these great games,old and
+        <br />new. And only like half of them are Spider-Man games
+      </p>
+      <img id="img1" src="marvel.jpg" alt="marvel" width="400" />
+      <button class="button">Read more</button>
     </section>
     <div class="container">
-        <h2 class="h2">Latest news</h2>
-        <div class="container-article">
-            <article class="bg1 card">
-                <h1>Check Out Tekken 8's Final Launch Fighter, The Newcomer Reina</h1>
-            </article>
-            <article class="bg2 card">
-                <h1>Diablo 4 Leads Talk Development Process, Post-Launch Priorities</h1>
-            </article>
-            <article class="bg3 card">
-                <h1>Steam Deck OLED Announced</h1>
-            </article>
-        </div> 
+      <h2 class="h2">Latest news</h2>
+      <div class="container-article">
+        <article class="bg1 card">
+          <h1>Check Out Tekken 8's Final Launch Fighter, The Newcomer Reina</h1>
+        </article>
+        <article class="bg2 card">
+          <h1>
+            Diablo 4 Leads Talk Development Process, Post-Launch Priorities
+          </h1>
+        </article>
+        <article class="bg3 card">
+          <h1>Steam Deck OLED Announced</h1>
+        </article>
+      </div>
     </div>
-   
-        <footer class="footer">
+
+    <footer class="footer">
+      <div class="container-article2">
+        <article>
+          <h3>More sites</h3>
+          <nav>
+            <ul>
+              <li><a href="#">gamenews.com</a></li>
+              <li><a href="#">gameblogs.com</a></li>
+              <li><a href="#">gamingarea.com</a></li>
+            </ul>
+          </nav>
+        </article>
+        <article>
+          <h3>Reviews</h3>
+          <ul>
             <nav>
-                <section id="foot">
-                <div class="container-article2">
-                
-            <ul>
-                <article>
-                <h3>More sites</h3>
-                <li><a href="#">gamenews.com</a></li>
-                <li><a href="#">gameblogs.com</a></li>
-                <li><a href="#">gamingarea.com</a></li><br>
-            </article>
-            </ul>
-            <ul>
-                <article>
-                <h3>Reviews</h3>
-                <li><a href="#">PC</a></li>
-                <li><a href="#">PS4</a></li>
-                <li><a href="#">PS5</a></li>
-                <li><a href="#">Xbox One</a></li>
-                <li><a href="#">Switch</a></li> <br>
-            </article>
-            </ul>
-            <ul>
-                <article>
-                <h3>News</h3>
-                <li><a href="#">PC</a></li>
-                <li><a href="#">PS4</a></li>
-                <li><a href="#">PS5</a></li>
-                <li><a href="#">Xbox One</a></li>
-                <li><a href="#">Switch</a></li> <br>
-            </div>
-            </article>
-            </ul>
-        </nav>
-            <p id="p3"><strong>Subscribe to our newsletter</strong> </p>
-            <p class="p">Monthly digest of what's new and exciting from us</p>
-            <form action="/search" method="get">
+              <li><a href="#">PC</a></li>
+              <li><a href="#">PS4</a></li>
+              <li><a href="#">PS5</a></li>
+              <li><a href="#">Xbox One</a></li>
+              <li><a href="#">Switch</a></li>
+            </nav>
+          </ul>
+        </article>
+        <article>
+          <h3>News</h3>
+          <ul>
+            <nav>
+              <li><a href="#">PC</a></li>
+              <li><a href="#">PS4</a></li>
+              <li><a href="#">PS5</a></li>
+              <li><a href="#">Xbox One</a></li>
+              <li><a href="#">Switch</a></li>
+            </nav>
+          </ul>
+        </article>
+        <form action="/search" method="get">
+          <p id="p3"><strong>Subscribe to our newsletter</strong></p>
+          <p class="p">Monthly digest of what's new and exciting from us</p>
 
-                <input type="text" id="search" name="" placeholder="Email address">
-                <button class="button">Subscribe</button>
-            </form>
-            <p id="p3"> ©2023 GameNews.inc. All rights reserved.</p>
-           <li> <a href = "#"><img src="https://logowik.com/content/uploads/images/twitter-x5265.logowik.com.webp" alt="twitter-x5265"
-                width="44"></a></li>
-            <li><a href=" #"><img src="https://www.clipartkey.com/mpngs/b/87-874947_instagram-logo-clipart.png" alt="insta" width="30"></a></li>
-                <li><a href=" #"><img src="https://th.bing.com/th/id/R.27d542e2e2626de4c08ee3d84aaabb7b?rik=1rF1Vy85L8YlvA&riu=http%3a%2f%2fwww.d1spas.fr%2fwp-content%2fuploads%2f2015%2f11%2ffacebook-logo-black-and-white-png-4.png&ehk=36VbgUuGtA5dW0PK4kcuD4S9xM8NvqKYQYvc%2fUT0LQU%3d&risl=&pid=ImgRaw&r=0"
-                alt="fb" width="35"></a></li>
-        </footer>
-    </section>
-</body>
-
+          <input type="text" id="search" name="" placeholder="Email address" />
+          <button class="button">Subscribe</button>
+        </form>
+      </div>
+      <div id="footer-bottom">
+        <p id="p3">©2023 GameNews.inc. All rights reserved.</p>
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="https://logowik.com/content/uploads/images/twitter-x5265.logowik.com.webp"
+                alt="twitter-x5265"
+                width="44"
+            /></a>
+          </li>
+          <li>
+            <a href=" #"
+              ><img
+                src="https://www.clipartkey.com/mpngs/b/87-874947_instagram-logo-clipart.png"
+                alt="insta"
+                width="30"
+            /></a>
+          </li>
+          <li>
+            <a href=" #"
+              ><img
+                src="https://th.bing.com/th/id/R.27d542e2e2626de4c08ee3d84aaabb7b?rik=1rF1Vy85L8YlvA&riu=http%3a%2f%2fwww.d1spas.fr%2fwp-content%2fuploads%2f2015%2f11%2ffacebook-logo-black-and-white-png-4.png&ehk=36VbgUuGtA5dW0PK4kcuD4S9xM8NvqKYQYvc%2fUT0LQU%3d&risl=&pid=ImgRaw&r=0"
+                alt="fb"
+                width="35"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
