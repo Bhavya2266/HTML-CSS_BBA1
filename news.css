@@ -1,0 +1,32 @@
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.news-section {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.news-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.news-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.news-item img {
+    max-width: 1}

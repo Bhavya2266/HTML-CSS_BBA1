@@ -16,9 +16,8 @@
             
 
         <form action="/submit" method="POST">
-            <h1>Contact Us</h1>
-    
-            <section class="form-group">
+            
+            <div class="form-group">
                 <label for="topic">Topic</label>
                 <select id="topic" name="Choose.." required>
                     <option value="Choose..;">Choose...</option>
@@ -27,28 +26,30 @@
                     <option value="Feedback">Feedback</option>
                     <option value="Support">Support</option>
                 </select>
-            </section>
+            </div>
 
-
-            <section class="form-group">
+            
+            <div class="form-group">
                 <label for="email">Email adress <Email address></Email> </label>
                 <input type="email" id="email" name="email" required placeholder="name@example.com">
             </section>
 
             
-            <section class="form-group">
-                <label for="message"> Message</label>
-                <textarea id="message" name="message" required placeholder></textarea>
-            </section><br>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+            </div>
 
+            
             <footer class="footer">
                 <button type="submit" class="submit-button">Send Your Message</button>
             </footer>
         </form>
-     
-        <section class="image-container">
-            <img src="logo-gamenews.png" alt="Gamenews Logo" width="800" >
-        </section>
-    </section>
+
+        
+        <div class="image-container">
+            <img src="logo-gamenews.png" EGAMENEWSalt="Gamenews Logo">
+        </div>
+    </div>
 </body>
 </html>
