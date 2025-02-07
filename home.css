@@ -3,39 +3,60 @@ body{
 margin-right: 10%;
 font-family: "Open Sans", serif;
 }
-header{
+
+header {
+    background-color: #fff;
+    padding: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 4px;
-    background: #fff;
-    border-bottom: 1px solid white;
-  margin-bottom: 0%;
+    border-bottom: 1px solid #ddd;
+    position: relative;
 }
-nav ul{
+
+.logo {
+
+    color:#d4145a;
+}
+.button{
+    margin-left: 5px;
+    color: #d4145a;
+}
+nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
 }
-nav ul li{
-    
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
     text-decoration: none;
+    color: #333;
 }
-li a{
-    text-decoration: none;
-    color: black;
+
+
+.search-bar {
+    display: flex;
 }
-#Search{
-    padding: 5px;
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+   
 }
-button{
-    padding: 5px 10px;
-    border: none;
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color:#d4145a;
     color: #fff;
-    background: #f07;
-    border-radius: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
- a:hover{
+a:hover{
     background-color: #f07;
     padding: 10px;
     color: white;
@@ -47,6 +68,7 @@ button{
     padding: 15px;
     border: 25px solid white;
     border-radius: 30px;
+    margin-right:1px ;
     }
 .login{
         color:#d4145a;
@@ -55,14 +77,12 @@ button{
        border-radius: 3px;
        text-align: right;
       left: 80%;
+      text-decoration: none;
+      padding: 5px;
     }
     .p{
         color: grey;
         
-    }
-    footer{
-      text-align: right;
-      right:40%;
     }
     #img1{
         
@@ -73,18 +93,7 @@ button{
     #img{
         border-radius: 10px;   
     }
-    .footer ul{
-        list-style: none;
-    padding:6px;
     
-    }
-    footer ul li a {
-        text-decoration: none;
-        color: grey;
-        text-align: right;
-        padding: 20px ;
-        
-    }
     .latest-news {
         background-color: #f8f8f8;
         padding: 40px ;
@@ -94,25 +103,28 @@ button{
         max-width: 960px;
         margin: 0 auto;
         padding: 20px;
+    
     }
     .container-article {
         margin: 0 auto;
         display: flex;
         gap: 20px;
     }
-    article {
-        width: 33%;
-       
-    }
     #sec{
-        border-top: 1px solid rgb(233, 228, 228);
+       
+        display: flex;
+        padding: 60px;
+    }
+    #sec1{
+        text-align: left;
+        padding-right: 10px;
     }
     .h2{
         text-align: left;
         color: #d4145a;
         border-bottom: 1px solid rgb(228, 224, 224);
         margin-bottom: 40px;
-        margin-top: 350px;
+        margin-top: 50px;
     }
     li{
         display:block;
@@ -134,19 +146,23 @@ button{
         
     }
     .bg1{
-        background-image: url(tekken_8_reina.jpg);
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+       
+        display: flex;
+        width: 300px;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 8px;
+       padding-bottom: 20px;
     }
     .bg2{
-        background-image: url(diablo.jpg);
+       
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
     .bg3{
-        background-image: url(steam_deck_oled_front_1.jpg);         
+              
         width: cover;
         height: 300px;
         display: block;
@@ -158,7 +174,7 @@ button{
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #f8f8f8;
+        
     }
     .container-article2{
             display:flex;
@@ -166,14 +182,75 @@ button{
             justify-content:center;
             gap:20px;
     }
-    #footer-bottom{
-        display:flex;
-        align-items:flex-end;
-        
-    }
+   
     .article{
        
        flex-wrap:wrap;
        flex-basis:300px;
        text-align:center;
     }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+#latest-news-section h3 {
+    color: white;
+    font-size: 26px;
+    text-shadow:  2px 2px #333;
+}
+#latest-news-section article {
+   padding: 30px;
+   display: flex;
+   align-items: center;
+}
+footer{
+    text-align: right;
+    right:40%;
+  margin-top: 90px;
+
+  }
+  footer li a{
+      text-decoration: none;
+      color: grey;
+     
+  }
+.footer-bottom{
+    display:flex;
+    align-items:flex-start;
+    margin-top: 20px;
+    border-top: 1px solid grey;
+    justify-content: space-between;
+      
+}
+footer ul, footer li{
+    margin:0px;
+    padding: 0px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+#footer-icons{
+    display: flex;
+    padding: 9px;
+    margin: 2px;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+}
+#but{
+    color: white;
+    background-color: #d4145a;
+    border: 1px solid white;
+    padding: 6px;
+    border-radius: 4px;
+}
+.footer-section-newsletter{
+    align-items: flex-end;
+    justify-content: flex-end;
+}
