@@ -119,32 +119,7 @@ textarea {
     height: 150px;
     resize:none ; 
 }
-
-
-.footer {
-    margin-top: 10px;
-}
-
-.submit-button {
-    background-color: #d4145a;
-    color: white;
-    padding: 9px 15px;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    width: 300px;
-}
-
-.image-container {
-    margin-top: 30px;
-}
-
-img {
-    max-width: 350px;
-    height: auto;
-}
-footer{
+[07/02/2025 14:43:30] Bhavya: ooter{
     text-align: right;
     right:40%;
   margin-top: 90px;
@@ -192,3 +167,5 @@ footer ul, footer li{
     align-items: flex-end;
     justify-content: flex-end;
 }
+
+
