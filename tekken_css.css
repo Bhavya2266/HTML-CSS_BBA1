@@ -79,7 +79,7 @@ text-align: center;
 color: #d4145a ;
 }
 .fpara{
-text-align: justify;*
+text-align: justify;
 font-size: 14px;
 padding-left: 500px;
 padding-right: 450px;
@@ -94,6 +94,10 @@ footer{
   right:40%;
 margin-top: 90px;
 
+}
+nav a {
+  text-decoration: none;
+  color: #333;
 }
 footer li a{
     text-decoration: none;

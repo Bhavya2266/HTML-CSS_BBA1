@@ -151,5 +151,8 @@ footer ul, footer li{
     align-items: flex-end;
     justify-content: flex-end;
 }
-    
+nav a {
+    text-decoration: none;
+    color: #333;
+}
     

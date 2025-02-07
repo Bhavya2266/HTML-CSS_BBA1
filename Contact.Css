@@ -113,7 +113,13 @@ select:focus, input[type="email"]:focus, textarea:focus {
     outline: none;
     border-color:#d4145a; 
 }
-
+.bu{
+    background-color: #d4145a;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 4px;
+}
 
 textarea {
     height: 150px;
@@ -123,6 +129,10 @@ textarea {
 
 .footer {
     margin-top: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
 }
 
 .submit-button {
