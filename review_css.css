@@ -103,16 +103,18 @@ a:hover{
    padding: 15px;
     
 }
+Bhavyanthi — Today at 15:23
 footer{
     text-align: right;
     right:40%;
   margin-top: 90px;
+  list-style: none;
 
   }
-  footer li a{
-      text-decoration: none;
-      color: grey;
-     
+  footer>a{
+    text-decoration: none;
+    color: grey;
+
   }
 .footer-bottom{
     display:flex;
@@ -120,11 +122,12 @@ footer{
     margin-top: 20px;
     border-top: 1px solid grey;
     justify-content: space-between;
-      
+
 }
-footer ul, footer li{
+ footer > li{
     margin:0px;
     padding: 0px;
+
 }
 .footer-container {
     display: flex;
@@ -139,6 +142,10 @@ footer ul, footer li{
     align-items: flex-start;
     justify-content: flex-end;
 
+}
+nav ul {
+    display: flex;
+    list-style: none;
 }
 #but{
     color: white;
