@@ -89,51 +89,75 @@ padding-left: 500px;
 padding-right: 450px;
 
 }
+Bhavyanthi — Today at 15:23
 footer{
-  text-align: right;
-  right:40%;
-margin-top: 90px;
+    text-align: right;
+    right:40%;
+  margin-top: 90px;
+  list-style: none;
 
-}
-footer li a{
+  }
+  footer>a{
     text-decoration: none;
     color: grey;
-   
-}
+
+  }
 .footer-bottom{
-  display:flex;
-  align-items:flex-start;
-  margin-top: 20px;
-  border-top: 1px solid grey;
-  justify-content: space-between;
-    
+    display:flex;
+    align-items:flex-start;
+    margin-top: 20px;
+    border-top: 1px solid grey;
+    justify-content: space-between;
+
 }
-footer ul, footer li{
-  margin:0px;
-  padding: 0px;
+ footer > li{
+    margin:0px;
+    padding: 0px;
+
 }
 .footer-container {
-  display: flex;
-  justify-content: space-between;
-  text-align: left;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
 }
 
 #footer-icons{
-  display: flex;
-  padding: 9px;
-  margin: 2px;
-  align-items: flex-start;
-  justify-content: flex-end;
+    display: flex;
+    padding: 9px;
+    margin: 2px;
+    align-items: flex-start;
+    justify-content: flex-end;
 
 }
+nav ul {
+    display: flex;
+    list-style: none;
+}
 #but{
-  color: white;
-  background-color: #d4145a;
-  border: 1px solid white;
-  padding: 6px;
-  border-radius: 4px;
+    color: white;
+    background-color: #d4145a;
+    border: 1px solid white;
+    padding: 6px;
+    border-radius: 4px;
 }
 .footer-section-newsletter{
-  align-items: flex-end;
-  justify-content: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+footer ul {
+    list-style: none;
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
 }
