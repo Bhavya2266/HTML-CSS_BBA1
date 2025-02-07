@@ -3,6 +3,73 @@ body{
    margin-right: 10%;
    font-family: "Open Sans", serif;
 }
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+
+    color:#d4145a;
+}
+.button{
+    margin-left: 5px;
+}
+.login{
+    color:#d4145a;
+    border: 1px solid #d4145a;
+   background-color: white;
+   border-radius: 4px;
+   text-align: right;
+  left: 80%;
+  padding: 5px;
+  text-decoration: none;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    background-color: #f07;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+}
+
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color:#d4145a;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
 #images{
     display: flex;
     justify-content: center;
