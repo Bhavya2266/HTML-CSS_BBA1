@@ -249,3 +249,6 @@ input[type="checkbox"] {
         width: 90%; 
     }
 }
+.container{
+    margin-top: 60px;
+}
